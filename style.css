@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    color: black;
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+.brand{
+    color: rgb(160, 201, 65);
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Roboto Serif', serif;
+}
+.nav-items{
+   
+    margin-left: 650px;
+}
+.header{
+    display: flex;
+    background-color: white;
+    margin-bottom: 1px;
+}
+.nav-items li{
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav-items li:hover {
+    color: pink;
+    text-decoration: underline;
+}
+
+.section img {
+    width: 270px;
+    height: 250px;
+    margin-left: 10px;
+    background-color: white;
+    padding: 5px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 43px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 450px;
+    font-family: 'Julee', cursive;
+}
+
+.vertical{
+    border-left: 2px solid wheat;
+    height: 400px;
+}
+.section p{
+    color: white;
+}
+.services{
+    background-color:#FFE5B4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    text-align: center;
+    height: 550px;
+    font-family: 'Sassy Frass', cursive;
+    font-size: 25px;
+}
+.services img{
+    width: 350px;
+  
+}
+.bg{
+    background-color: white;
+    margin-left: 10px;
+}
+.Contact{
+    background-color: #24f2c6;
+    padding: 15px;
+}
+.Details{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.col1{
+    background-color: white;
+    justify-content: center;
+    padding: 0px 80px 80px 80px;
+    width: 400px;
+}
+.col1 h3,label{
+    color: blue;
+}
+.col1 input{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    border-radius: 15px;
+    width: 90px;
+    margin-left: 20px;
+}
+
+.col2{
+    background-color: blue;
+    color: white;
+    padding: 20px 80px 80px 30px;
+    width: 280px;
+}
+.flex{
+    display: flex;
+}
+.ml{
+    margin-left: 20px;
+}
+#left div{
+    margin-left: 20px;
+}
